@@ -1,0 +1,70 @@
+{
+	"compiler": {
+		"version": "0.7.0+commit.9e61f92b"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "numero1",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "numero2",
+						"type": "int256"
+					}
+				],
+				"name": "sumar",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/suma.sol": "Suma"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/suma.sol": {
+			"keccak256": "0xda74525d7e6c011700b635f344f3ed3b2cebdd1f9f7f0b1bda3fcf90f983a842",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://e4df3061c1ebc05b46969371fbe25fc2df27a376dfba0834536911f07e9f625c",
+				"dweb:/ipfs/QmckbehH8f2JsCAzQ6WTNXKipUK3YfPyH6ZctCKP7B1B8r"
+			]
+		}
+	},
+	"version": 1
+}
