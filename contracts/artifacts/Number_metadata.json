@@ -15,12 +15,12 @@
 						"type": "int256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "getNumber",
+				"name": "getNumber2",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -28,7 +28,7 @@
 						"type": "int256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "pure",
 				"type": "function"
 			}
 		],
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"contracts/Number.sol": {
-			"keccak256": "0x0f36d26c997d8d7305e251ffec9ce70a2b421299320c7ff4c996d77a12247704",
+			"keccak256": "0xcc0c4b47d2c5edf434c5c0635994bea269b4918534f5635af14b363a68506b73",
 			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://69213628b9afff3b9f098a8ad1add76348798c66df001255d048b140f17bec4f",
-				"dweb:/ipfs/QmZmi8fcS3UuQASTBj6GzG9E4ma1oZ3dod2fhfMVMvyg4M"
+				"bzz-raw://6f5319c39ec329e332143954b05e79ce622afe2f5bce1cd1f835f9f659c3a052",
+				"dweb:/ipfs/Qmag7UFWdPNEimNuo2WFcxT2caTWnUJXzMb85m14RQ3omR"
 			]
 		}
 	},
