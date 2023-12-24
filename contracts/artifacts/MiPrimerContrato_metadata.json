@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.19+commit.7dd6d404"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "nuevaEdad",
+						"type": "uint256"
+					}
+				],
+				"name": "cambiarEdad",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "leerEdad",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/inicio.sol": "MiPrimerContrato"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/inicio.sol": {
+			"keccak256": "0xfe7e923325949e351978e8edd9638236db7be39a2f3559660c66d29f033706ba",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://65ab2ae580fbf4ef972b545efc5bcb3a04e82cae36787bc778dcee29ab99a11c",
+				"dweb:/ipfs/QmSQ8ED1Yq9NC3Jttjq1DSTzjaqFCf5nwNh8spjjvZiJu9"
+			]
+		}
+	},
+	"version": 1
+}

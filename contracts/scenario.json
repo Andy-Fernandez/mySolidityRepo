@@ -1,0 +1,53 @@
+{
+  "accounts": {
+    "account{0}": "0xa7905d790c42E401CECA5264034c70a0F37C33f5"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1700015528218,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x9cbd8da01cfb8d186bea306d591ed8727a8be30270a0d1d50ce0b4a7ceb032d4",
+        "contractName": "Inicio",
+        "bytecode": "60806040527ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb3160015534801561003457600080fd5b50610150806100446000396000f3fe608060405234801561001057600080fd5b50600436106100365760003560e01c806317b49efa1461003b5780638066bdb814610057575b600080fd5b610055600480360381019061005091906100c3565b610075565b005b61005f61007f565b60405161006c91906100ff565b60405180910390f35b8060008190555050565b60008054905090565b600080fd5b6000819050919050565b6100a08161008d565b81146100ab57600080fd5b50565b6000813590506100bd81610097565b92915050565b6000602082840312156100d9576100d8610088565b5b60006100e7848285016100ae565b91505092915050565b6100f98161008d565b82525050565b600060208201905061011460008301846100f0565b9291505056fea2646970667358221220594c999503425f6d17ab76f772ded95b99a1e45966465e6b3e9df70a45ffded164736f6c63430008130033",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0x9cbd8da01cfb8d186bea306d591ed8727a8be30270a0d1d50ce0b4a7ceb032d4": [
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "nuevaEdad",
+            "type": "uint256"
+          }
+        ],
+        "name": "cambiarEdad",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [],
+        "name": "leerEdad",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  }
+}
