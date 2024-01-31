@@ -22,6 +22,30 @@
 				"inputs": [
 					{
 						"internalType": "uint256",
+						"name": "_index",
+						"type": "uint256"
+					}
+				],
+				"name": "getZombie",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "dna",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
 					}
@@ -71,11 +95,11 @@
 	},
 	"sources": {
 		"contracts/cryptoZomC1.sol": {
-			"keccak256": "0x5786ee28844b1f4cc9d16ce79ba2449893172e158e0e5e729904de3313a9e9cd",
+			"keccak256": "0xbceb073e153c7f26e6a9685d946778c2d0c0dc0db8e764ed6cdd22703a895086",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://86f27a73da0b29e3f736f2c64a8dfc95bb6a9d925c472430d056381bb9cec002",
-				"dweb:/ipfs/Qmeqvsvs79gFRQSLoDXqZt6dbK4g4tzuwn5DfBZcUYqs2L"
+				"bzz-raw://584109d418f90f486201a8acdd295c025d5e58aed42f40525678d08b012bd3dc",
+				"dweb:/ipfs/QmPQQ5AKN697sSwbeQSeKqvLgsQEFsXBz7B5YfCDgVMheg"
 			]
 		}
 	},

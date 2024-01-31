@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"gestor de empleados/Persona.sol": "Persona"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"gestor de empleados/Persona.sol": {
+			"keccak256": "0x85be4a83fba86b148c5b52ec095a5efdd9bec37eac7bf9a50eccc673e2c12149",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://16509d9cf5721dfe58bfad9d5fe7e79f6428c44caccff1f5570d06de31737b4e",
+				"dweb:/ipfs/QmSp3dDd5oc3xzY8B2qy7f55soY8MqQaYWUs7TDx5ojoXX"
+			]
+		}
+	},
+	"version": 1
+}
