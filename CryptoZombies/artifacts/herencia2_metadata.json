@@ -1,0 +1,80 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "anotherCatchphrase",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "catchphrase",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CryptoZombies/C2herencia2.sol": "herencia2"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CryptoZombies/C2herencia.sol": {
+			"keccak256": "0x353878cb3a9f2398c79516dd202f09cab38ce76c8cd9b8092febc8af3a6e34e5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://122536b27e21933176eecc3f42833eb2dec01d56d5afff9c71d5628ab995b366",
+				"dweb:/ipfs/QmdM2Yb3NMdAcj3wuD8pEUUfeADHgPkfRDVt81573QBDv3"
+			]
+		},
+		"CryptoZombies/C2herencia2.sol": {
+			"keccak256": "0xc759a3a19c09c1507a307f668ea23012bd0fb59f4258e40a9e7e8993e6e984c1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4ca50e781cf018b790c7ae61560cb60dd81fc5c7f3bc6750fdbdde3de20bf65f",
+				"dweb:/ipfs/QmZb9RfkLAX21rwhwLkgJZ62wm8EnPGKfBBeZaTqPyokUS"
+			]
+		}
+	},
+	"version": 1
+}
