@@ -6,16 +6,23 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "fiveMinutesHavePassed",
+				"outputs": [
 					{
-						"internalType": "address payable",
-						"name": "receiver",
-						"type": "address"
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
 					}
 				],
-				"name": "sendEther",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "updateTimestamp",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -32,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"PruebasRápidas/prueba1.sol": "prueba1"
+			"PruebasRápidas/timeStamp.sol": "prueba1"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -46,12 +53,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"PruebasRápidas/prueba1.sol": {
-			"keccak256": "0x511d956329e84fbeb2fb3ad4a8a261054eae9aaa5df5ed5b8d82f4bcbb9ed1e9",
+		"PruebasRápidas/timeStamp.sol": {
+			"keccak256": "0x64e2d4476e922aada8e543b805a0dc6e19df4cc7ae6ee1243cd466052e97d805",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://e22a438280965bd2df22aa78120249d5020c14741d6b72010cd911bc6a15b07e",
-				"dweb:/ipfs/QmPzRfHgxk63QRy8uPovph1bgjpi1HzoXSKCaA2aYoqVPw"
+				"bzz-raw://7114b6787ad1799100d78cac6b8a08396daa179c9ddbd729ff8f36b7d69e927a",
+				"dweb:/ipfs/QmSjPyMzTxu11KF6RTy1VYoBK83ZA8amnXXS9YUGaVmMgU"
 			]
 		}
 	},
